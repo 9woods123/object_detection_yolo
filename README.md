@@ -6,11 +6,11 @@
 ```bash
 # 安装虚拟环境工具（如未安装）
 pip install virtualenv
+sudo apt install python3.9-venv
 
 # 创建Python 3.9+虚拟环境（RTX 5080需要Python 3.9+）
 python -m venv yolo_venv
 # 对于Ubuntu系统可能需要额外安装
-sudo apt install python3.9-venv
 
 # 激活虚拟环境
 source yolo_venv/bin/activate  # Linux/Mac
@@ -41,7 +41,8 @@ pip install -r requirements.txt
    To convert the **LabelMe** annotated dataset into a format that YOLO can read, run the `voc_label.py` script:
 
    ```bash
-   python3 dataset/voc_label.py
+   cd dataset 
+   python3 voc_label.py
    ```
 
 2. **Split the Dataset**  
