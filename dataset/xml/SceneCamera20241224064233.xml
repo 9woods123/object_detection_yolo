@@ -1,0 +1,26 @@
+<annotation>
+	<folder>img</folder>
+	<filename>SceneCamera20241224064233.png</filename>
+	<path>C:\Users\27269\Desktop\learning_data_set\img\SceneCamera20241224064233.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tank</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>452</ymin>
+			<xmax>566</xmax>
+			<ymax>682</ymax>
+		</bndbox>
+	</object>
+</annotation>

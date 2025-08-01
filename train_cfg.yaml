@@ -1,0 +1,17 @@
+path: /home/easy/PilotX/object_detection/
+
+
+#这里要绝对路径
+train: train_data/train.txt  # 训练集的路径
+val: train_data/val.txt      # 验证集的路径
+
+
+# 数据集类别
+
+nc: 2
+names: 
+  0: "enemy"
+  1: "tank"
+  
+# ["enemy","tank"]
+

@@ -1,0 +1,6 @@
+train_data/
+result/
+predict_result/
+runs/
+yolo_venv/
+yolo_venv_new/
